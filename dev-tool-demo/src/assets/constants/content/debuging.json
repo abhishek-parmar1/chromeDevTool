@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Debuging",
+  "list": [
+    {
+      "title": "Debugging",
+      "description": [
+        {
+          "label": "<b>console.log, debugger:</b> But don't push them to production"
+        },
+        {
+          "label": "<b>Exercise:</b> Before moving to break points, guys can you guess the value of c in function two in debugging.js?",
+          "isTrick": true
+        },
+        {
+          "label": "<b>Breakpoints:</b> Lets add a breakpoint in debugging.js"
+        },
+        {
+          "label": "<b>Stepping Navigations:</b> Resume, Step over, Step in, Step out, step"
+        },
+        {
+          "label": "<b>Contextual Information:</b>"
+        },
+        {
+          "label": "What are: Watch , Call Stack, Scope, Breakpoints"
+        }
+      ]
+    },
+    {
+      "title": "BlackBoxing",
+      "description": [
+        {
+          "label": "Really not intrested in react or vue internal call stack or scope variable or any other library. You can blackbox those scripts from call stack during debugging or permaneantly from the settings => blackboxing",
+          "isTrick": true
+        }
+      ]
+    },
+    {
+      "title": "Conditional Breakpoints",
+      "description": [
+        {
+          "label": "Some times you have wrappers which are called multiple times, you don't want to debug them but adding a breakpoint directly on them, their will be multiple calls, so you add conditional breakpoints.",
+          "isTrick": true
+        }
+      ]
+    },
+    {
+      "title": "XHR Breakpoints",
+      "description": [
+        {
+          "label": "These are usefull when you want to debug the api call and had no idea about the code, where it is called from, how many times.",
+          "isTrick": true
+        }
+      ]
+    }
+  ]
+}

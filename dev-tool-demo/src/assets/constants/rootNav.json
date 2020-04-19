@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Home",
+    "label": "Home",
+    "path": "/"
+  },
+  {
+    "name": "Topics",
+    "label": "Topics",
+    "path": "/topics"
+  },
+  {
+    "name": "Page",
+    "label": "",
+    "path": "/topics/:page"
+  }
+]

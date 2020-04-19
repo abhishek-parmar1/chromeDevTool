@@ -1,0 +1,129 @@
+{
+  "pageTitle": "Editing",
+  "list": [
+    {
+      "title": "Intro to the <>Elements Tab<>",
+      "description": [
+        {
+          "label": "<b>Basis for DOM tree, styles section:</b> DOM Tree is expandable, can highlight stuff by hovering, styles over nodes,"
+        },
+        {
+          "label": "<b>Option + click:</b> Expand all nested nodes and toggle",
+          "isTrick": true
+        },
+        {
+          "label": "<b>Selection Mode:</b> For focusing and selecting the elements from the UI."
+        },
+        {
+          "label": "<b>Device Emulation:</b> For testing different layouts for your website.",
+          "isTrick": true
+        }
+      ]
+    },
+    {
+      "title": "Working with Style",
+      "description": [
+        {
+          "label": "<b>Css Specificity:</b> The less specific means the more general styles. Elements => Classes => Id => Inline."
+        },
+        {
+          "label": "<b>Important:</b> Never use a important tag, it breaks the order of specificity."
+        },
+        {
+          "label": "<b>Computed Styles:</b> Loading to many style sheets and then identifying where the styles are coming from."
+        },
+        {
+          "label": "<b>Event Listeners:</b> You can view the event listeners on a specific element using this.",
+          "isTrick": true
+        },
+        {
+          "label": "<b>Drag and Drop Elements:</b> Confussed with design, you can directly drag and drop the DOM elments and try out stuff."
+        }
+      ]
+    },
+    {
+      "title": "DOM Breakpoints",
+      "description": [
+        {
+          "label": "<div class='Dom-breakpoint'>Why I'm changing, add a break point to me.</div>",
+          "isTrick": true
+        }
+      ]
+    },
+    {
+      "title": "Dev Tool or IDE",
+      "description": [
+        {
+          "label": "Ever thought about using chrome devtool as code editor.",
+          "isTrick": true
+        },
+        {
+          "label": "Every change you made in styles section is saved in local file if the css is mapped (Mapped when green dot appears)."
+        },
+        {
+          "label": "Sass is also supported, but it doesn't works with build process like webpack and create react app..."
+        },
+        {
+          "label": "Changing in your DOM tree are not reflected."
+        }
+      ]
+    },
+    {
+      "title": "ESC door to console ",
+      "description": [
+        {
+          "label": "<b>Console Drawer</b>",
+          "isTrick": true
+        },
+        {
+          "label": "For selecting an element either you write document.querySelector or you can select the element and directly use $0 in console"
+        },
+        {
+          "label": "Really handy when you are debugging some heavy dom operations"
+        }
+      ]
+    },
+    {
+      "title": "Coverage (Command+Shift+P)",
+      "description": [
+        {
+          "label": "This is used to see what css and js is being used on your website and what is not, click on any file it can give you the code distribution.",
+          "isTrick": true
+        },
+        {
+          "label": "But there is a catch, it will represent the css as red (unused) untill it is loaded in the dom. So be carefull while using it."
+        }
+      ]
+    },
+    {
+      "title": "Animations (Command+Shift+P)",
+      "description": [
+        {
+          "label": "Capture animations by opening the Animation Inspector. It automatically detects animations and sorts them into groups.",
+          "isTrick": true
+        },
+        {
+          "label": "Inspect animations by slowing them down, replaying them, or viewing their source code."
+        },
+        {
+          "label": "Modify animations by changing their timing, delay, duration, or keyframe offsets."
+        }
+      ]
+    },
+    {
+      "title": "Extras",
+      "description": [
+        {
+          "label": "H magic"
+        },
+        {
+          "label": "Color Palettes"
+        },
+        {
+          "label": "New Style rule with className * and outline:1px solid;, for debugging any overflows",
+          "isTrick": true
+        }
+      ]
+    }
+  ]
+}

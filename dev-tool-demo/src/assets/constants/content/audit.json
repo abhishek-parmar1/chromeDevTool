@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Audit",
+  "list": [
+    {
+      "title": "Web Page Test",
+      "description": [
+        {
+          "label": "Only usefull when your website is on a Domain, not for local testing."
+        },
+        {
+          "label": "Provides a abstract view of your content breakdown, waterfall, first view, performance of website, vulnerability, improvments etc"
+        }
+      ]
+    },
+    {
+      "title": "Audit Tab: Light house",
+      "description": [
+        {
+          "label": "Provides a abstract view as well."
+        }
+      ]
+    },
+    {
+      "title": "Sonarwhal",
+      "description": [
+        {
+          "label": "Provides a abstract view as well."
+        }
+      ]
+    }
+  ]
+}
