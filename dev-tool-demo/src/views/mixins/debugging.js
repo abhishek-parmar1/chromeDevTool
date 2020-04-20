@@ -1,7 +1,7 @@
 export default {
   mounted() {
     this.one("bar");
-    this.fetchCall();
+    //this.fetchCall();
   },
   methods: {
     one(foo) {

@@ -8,20 +8,20 @@
           "label": "As your website loads, it shows all the api request your website calls, this tool is very powerfull for checking whats taking more time in your request, where can you improve, are ther too many requests or they are big...."
         },
         {
-          "label": "It shows all the details of individaul requests like name, time it took, size of reponse, initiator, status and all..."
-        },
-        {
           "label": "When ever you hit a website, the first thing you get back is the index.html, then browser parses that document and starts calling to other resources like images, links, css"
         },
         {
-          "label": "Lets take an example of upgrad.com"
+          "label": "Lets take an example of upgrad.com and load its network tab."
         },
         {
-          "label": "Browser itself prioritize resources like images it de priortize images over css."
+          "label": "It shows all the details of individaul requests like name, time it took, size of reponse, initiator, status and all..."
         },
         {
           "label": "Shift while hover: it highlight your initiator",
           "isTrick": true
+        },
+        {
+          "label": "Browser itself prioritize resources like images it de priortize images over css."
         }
       ]
     },
@@ -40,10 +40,12 @@
           "label": "The request was posponed by rendering engine because it considered lower priority than critical resources (such as scripts/styles), this often happens with the images."
         },
         {
-          "label": "The request was put on hold because browser only allows <b> six TCP connections</b> per origin on HTTP 1."
+          "label": "The request was put on hold because browser only allows <b> six TCP connections</b> per origin on HTTP 1.",
+          "isTrick": true
         },
         {
-          "label": "Thats why you bundle your resources like css and js or sprites for images, is to avoid this queing."
+          "label": "Thats why you bundle your resources like css and js or sprites for images, is to avoid this queing.",
+          "isTrick": true
         }
       ]
     },
@@ -97,7 +99,7 @@
           "label": "Time spent waiting for the initial response, also known as time to first bite."
         },
         {
-          "label": "This time captures the latency of a round trip tot the server in addition to the tine spent waiting for the server to deliver the response."
+          "label": "This time captures the latency of a round trip top the server in addition to the time spent waiting for the server to deliver the response."
         },
         {
           "label": "All the above colors we had talke about are related to networking but this relates to your application server."
@@ -124,6 +126,14 @@
       ]
     },
     {
+      "title": "Filters and other options",
+      "description": [
+        {
+          "label": "Preserver logs, disable cache, filters and all"
+        }
+      ]
+    },
+    {
       "title": "Screen Shots",
       "description": [
         {
@@ -134,14 +144,6 @@
         },
         {
           "label": "It is very usefull to identify what loading first your content or your images, are you blocking user for the images and all. "
-        }
-      ]
-    },
-    {
-      "title": "Filters and other options",
-      "description": [
-        {
-          "label": "Preserver logs, disable cache, filters and all"
         }
       ]
     }
